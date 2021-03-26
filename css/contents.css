@@ -116,12 +116,12 @@
 .wrapper.main .swiper-button-next, .wrapper.main .swiper-button-prev{width:30px;height:30px;background:url('../images/ico-arrow.png') no-repeat 0 0 / auto 100%;margin-top:-26px;}
 .wrapper.main .swiper-button-next{background-position-x:100%} 
 .wrapper.main .controller{text-align:center;margin-top:10px}
-.wrapper.main .swiper-pagination{position:static;vertical-align:middle;display:inline-block;height:10px;}
 .wrapper.main .controller [class^="swiper-button-"]{vertical-align:middle;display:inline-block;font-size:0;width:15px;height:15px;background:url('../images/ico-controller.jpg') no-repeat -8px center / auto 10px}
+.wrapper.main .controller .swiper-button-pause{background-position-x:4px}
+.wrapper.main .controller .hidden{display:none}
+.wrapper.main .swiper-pagination{position:static;vertical-align:middle;display:inline-block;height:10px;}
 .wrapper.main .swiper-pagination-bullet{width:10px;height:10px;margin:0 5px;vertical-align:top;opacity:1;background:#b2b2b2;}
 .wrapper.main .swiper-pagination-bullet-active{background:#ec694a;}
-.wrapper.main .controller .swiper-button-pause{background-position-x:4px}
-.wrapper.main .swiper-pagination .hidden{display:none}
 
 .wrapper.main .contents_wrap.notice_coupon{max-width:none;margin:0;text-align:center;padding:20px 0 60px;}
 .wrapper.main.openCoupon .contents_wrap.notice_coupon{background:#fff}
